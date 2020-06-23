@@ -7,7 +7,6 @@ body {
 
 * {
    box-sizing: border-box;
-   list-style: none;
 }
 
 header{
@@ -127,6 +126,10 @@ main {
 .list-profile{
    width: 30%;
 }
+.list-profile li{
+   
+   list-style: none;
+} 
 
 .list-profile h1{
    text-align: center;
