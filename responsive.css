@@ -1,0 +1,132 @@
+@media screen and ( max-width: 1170px){
+    main .container{
+        flex-wrap: wrap;
+        width:100%;
+        padding-left:5px;
+        padding-right: 5px;
+    }
+
+    #content{
+        width: 100%;
+        padding: 0;
+        float:none;
+    }
+    .container{
+        width: 100%;
+        padding: 10px;
+    }
+    .list-profile h1{
+        margin:0 auto;
+        width :200px;
+    }
+    .list-profile{
+        width :100%;
+        margin: 10px auto;
+        float: none;
+        margin-bottom: 30px;
+    }
+    .list-profile ul{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center
+    }
+    .profile{
+        margin: 0 3px ;
+    }
+    nav .sejarah {
+        margin: 0;
+    }
+    nav a{
+        margin: 2px;
+    }
+    
+    nav{
+        text-align: center;
+    }
+}
+
+@media(max-width:670px){
+    .logo {
+        width: 100%;
+    }
+    .judul{
+        height:100%;
+    }
+    header,main,footer{
+        overflow: auto;
+    }
+
+}
+
+
+
+/*@media (max-width: 1170px) {
+    #content{
+        width: 100%;
+        padding: 0;
+        float:none;
+    }
+    .container{
+        width: 100%;
+        padding: 10px;
+    }
+    .list-profile{
+        width :100%;
+        margin: 0 auto;
+        float: none;
+        display:flex;
+        margin-bottom: 30px;
+    }
+ }
+ @media (max-width:670px){
+    #content{
+        width: 100%;
+        padding: 0;
+        float:none;
+    }
+    .container{
+        width: 100%;
+        padding: 10px;
+    }
+    .list-profile{
+        width :100%;
+        margin: 0 auto;
+        float: none;
+        display:flex;
+        margin-bottom: 30px;
+        flex-wrap:wrap;
+    }
+    .lit-profile li{
+        width:100%;
+        
+    }
+    .lit-profile li img{
+        float :left;
+        
+    }
+ }
+ /*@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+    .logo {
+      width: 100%;
+      padding: 0;
+    }
+ }
+ 
+ @media screen and (max-width: 670px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+    .logo {
+      width: 100%;
+      padding: 0;
+    }
+ }
+ */
