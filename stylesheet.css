@@ -152,7 +152,7 @@ main {
    color: white;
    animation: example 5s linear 2s infinite normal;
    position: relative;
-   z-index: 10;
+   z-index: 9;
 }
 
 th {
